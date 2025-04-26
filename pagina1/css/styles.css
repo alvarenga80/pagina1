@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.top_barra, .lista_superior{
+
+  display: none;
+}   
+
+.encabezado{
+  background-color: #F0A83E;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  color:#fff;
+}
+
+.slide{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: end;
+background-image: url(../imagen/bolw1.png);
+height: 20rem;
+padding-right: 2rem;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+.slide h2{
+  
+  background-color: #fff;
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1rem;
+}
+.slide button{
+  background-color: #F0A83E;
+  padding: 1rem;
+  margin-right: 1.7rem;
+  border-radius: 5px;
+  margin-top: 1em;
+  
+
+}
+.productos_destacados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+
+}
+.hulle {
+  height: 5.2rem;
+  width: 5.6rem;
+}
+.productos_destacados ul{
+
+
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.productos_destacados img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+.imagen{
+  display: flex;
+  flex-direction: column;
+}
+.contacto {
+  height: 21rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.contacto input{
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  margin-top: 0.7rem;
+  color:#fff;
+  background-color: #3C2313;
+  padding-left: 1rem;
+
+}
+.botones {
+  margin-top: 3rem;
+
+    
+  
+}
+.botones button{
+  font-size: 2rem;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 5rem;
+  
+
+}
+.bt1{
+  background-color: #8A8787;
+
+}
+.bt2{
+  background-color: #F0A83E;
+}
+
+
+.suscripcion{
+  background-color: #F0A83E;
+
+  height: 6rem;
+  
+  text-align: center;
+  color:#fff;
+  font-size: x-large;
+
+}
+.suscripcion form{
+  display: flex;
+  justify-content: space-around; 
+
+
+}
+.suscripcion input{
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.suscripcion button{
+  width: 6.5rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-color: #3C2313;
+  color: #fff;
+  margin-top: 1rem;
+  
+}
+
+
+.legales{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+
+  
+
+}
+.informacion{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: #3C2313;
+  height: 21rem;
+
+
+
+}
+.elemento{
+  display: flex;
+  
+  
+  
+
+
+}
+.local {
+  display: flex;
+  flex-direction: column;
+  
+
+
+
+}
+.telef{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  color:#fff
+
+}
+.local img{
+  margin: 1rem;
+}
+.informacion img{
+  margin-top: 1rem;
+}
+
+b{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+}
+
+@media  screen and (min-width:780px) {
+  .top_barra{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content:space-around;
+  } 
+  .material-symbols-outlined{
+    display: none;
+  }
+  .lista_superior{
+    display: flex;
+
+
+  }
+  .lista_superior li{
+    display: flex;
+    margin-left: 1rem;
+    padding: 1rem 2.5rem;
+    }
+    
+
+  .slide h2{
+  
+  background-color: #fff;
+  margin-bottom: 1rem;
+  width: 22rem;
+  padding: 0.5rem;
+  font-size:25px;
+  text-align: center;
+  }
+  
+  .productos_destacados h2{
+    font-size: 40px;
+
+  }
+  .productos_destacados li {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .imagen{
+    flex-direction: row;
+    gap: 40px;
+
+  }
+  .suscripcion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top:20px;
+
+
+    
+
+  }
+  .suscripcion input{
+    margin-right: 15px;
+
+  }
+  .informacion{
+    flex-direction:row-reverse;
+    justify-content: space-around;
+  }
+ 
+
+ 
+  
+}
+
+
+
+

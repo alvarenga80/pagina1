@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>petshop</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="top_barra">
+            <p>Grandes ofertas en comedores</p>
+            <div><select id:"idioma" name:"idioma">
+                    <option value="es">español</option>
+                    <option value="en">ingles</option>
+                    <option value="it">italiano</option>
+                    <option value="pt">portugues</option>
+                </select>
+                <select id:"moneda" name:"moneda">
+                    <option value="peso">arg</option>
+                    <option value="euro">eur</option>
+                    <option value="dolar">usd</option>
+                </select>
+            </div>
+        </div>
+            <div class="encabezado">
+                <img src="imagen/Logo.svg" alt="logo">
+                <nav>
+                    <ul class="lista_superior">
+                        <li>Categorias</li>
+                        <li>Pets</li>
+                        <li>Nosotros</li>
+                        <li>Contactanos</li>
+                    </ul>
+                </nav>
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+            </div>
+    </header>
+    
+    <main>
+        <section class="slide">
+            <h2>¡es un placer tenerte aqui!</h2>
+            <p>¡Comedores en Descuentos!</p>
+            <button type="menu">COMEDEROS</button>
+        </section>
+        <section class="productos_destacados">
+            <img class="hulle" src="./imagen/huella.svg" alt="huella">
+            <h2> Productos Destacados</h2>
+                <nav>
+                    <ul>
+                        <li>Comederos</li>
+                        <li>-</li>
+                        <li>Accesorios</li>
+                        <li>-</li>
+                        <li>Comidas</li>
+                    </ul>
+                </nav>
+            <div class="imagen">   
+                <img src="./imagen/Comedero.jpg" alt="comedero">
+                <img src="./imagen/Huesito juguete.jpg" alt="juguetes">
+                <img src="./imagen/Churrasquito.jpg" alt="comida">
+            </div> 
+        </section>
+        <form class="contacto">
+            <h2>Contáctanos</h2>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+            <input type="email" id="email" name="email" placeholder="Ingresa Tu Correo Electronico">
+            <input type="number" id="Telefono" name="Telefono" placeholder="Telefono">
+
+            <div class="botones">
+                <button class="bt1" type="reset">limpiar</button>
+                <button class="bt2" type="submit">Enviar </button>
+            </div>
+        </form>
+        <section class="suscripcion">
+            <p> Suscríbete para más novedades</p>
+            <form>
+                <input type="email" id="correo" name="email" placeholder="Ingresa Tu Correo Electronico">
+                <button type="submit">Suscribirme</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <section class="informacion">
+            <img src="./imagen/Logofoot.svg" alt="logo">
+            <div class="elemento">
+                <div class="local">
+                    <img src="./imagen/localizacion.svg" alt="local">
+                    <img src="./imagen/telefono.svg" alt="telefono">
+                    <img src="./imagen/correo.svg" alt="correo">
+                </div>
+                <div class="telef">
+                    <p><b><u>Localidad</u></b><br>
+                    calle-provincia </p>
+                    <p><b><u>Telefono</u></b><br>
+                        111-111111</p>
+                    <p><b><u>Correo Electronico</u></b><br>
+                        Direccion de Correo</p>
+                </div>
+            </div>
+        </section>
+        <div class="legales">
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
